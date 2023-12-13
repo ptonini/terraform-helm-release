@@ -11,7 +11,8 @@ variable "repository" {
 variable "chart" {}
 
 variable "values" {
-  default = ["{}"]
+  default  = ["{}"]
+  nullable = false
 }
 
 variable "max_history" {
