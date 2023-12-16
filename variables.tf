@@ -16,7 +16,8 @@ variable "values" {
 }
 
 variable "max_history" {
-  default = 1
+  default  = 3
+  nullable = false
 }
 
 variable "skip_crds" {
